@@ -8,20 +8,60 @@
 
 /* Begin PBXBuildFile section */
 		352AB9482008F99A00A93C95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352AB9472008F99A00A93C95 /* AppDelegate.swift */; };
-		352AB94A2008F99A00A93C95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352AB9492008F99A00A93C95 /* ViewController.swift */; };
 		352AB94D2008F99A00A93C95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 352AB94B2008F99A00A93C95 /* Main.storyboard */; };
 		352AB94F2008F99A00A93C95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 352AB94E2008F99A00A93C95 /* Assets.xcassets */; };
 		352AB9522008F99A00A93C95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 352AB9502008F99A00A93C95 /* LaunchScreen.storyboard */; };
+		352AB95F2009184D00A93C95 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352AB95E2009184D00A93C95 /* User.swift */; };
+		352AFF29200937EB00062709 /* Product.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 352AFF28200937EB00062709 /* Product.storyboard */; };
+		352AFF2C200944F400062709 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352AFF2B200944F400062709 /* ProductTableViewCell.swift */; };
+		352AFF2E2009452D00062709 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352AFF2D2009452D00062709 /* Product.swift */; };
+		352AFF30200945E400062709 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352AFF2F200945E400062709 /* ProductListViewController.swift */; };
+		352AFF322009472700062709 /* Transaction.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 352AFF312009472700062709 /* Transaction.storyboard */; };
+		352AFF352009475900062709 /* PersonalInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352AFF342009475900062709 /* PersonalInfoViewController.swift */; };
+		352AFF372009476B00062709 /* ContactInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352AFF362009476B00062709 /* ContactInfoViewController.swift */; };
+		352AFF392009477C00062709 /* CredentialsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352AFF382009477C00062709 /* CredentialsViewController.swift */; };
+		352AFF3C2009732000062709 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352AFF3B2009732000062709 /* ApiError.swift */; };
+		352AFF3E20097F1E00062709 /* SignupNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352AFF3D20097F1E00062709 /* SignupNavigationController.swift */; };
+		352AFF4020099A0300062709 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352AFF3F20099A0300062709 /* Transaction.swift */; };
+		352AFF432009A2D000062709 /* DateTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352AFF422009A2D000062709 /* DateTransformer.swift */; };
+		352AFF462009AA3300062709 /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352AFF452009AA3300062709 /* TransactionTableViewCell.swift */; };
+		352AFF482009AAE700062709 /* TransactionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352AFF472009AAE700062709 /* TransactionListViewController.swift */; };
+		352AFF4D200A7C2200062709 /* AFManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352AFF4C200A7C2200062709 /* AFManager.swift */; };
+		352AFF4F200A831400062709 /* mybank-client.der in Resources */ = {isa = PBXBuildFile; fileRef = 352AFF4E200A81AD00062709 /* mybank-client.der */; };
+		352AFF52200A9D1C00062709 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352AFF51200A9D1C00062709 /* UIViewControllerExtension.swift */; };
+		356E8C75200929F900EE678A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356E8C74200929F900EE678A /* LoginViewController.swift */; };
+		C6E283E7741F6EA425353BE6 /* Pods_My_Bank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E38CE47CC41E8D58C680A966 /* Pods_My_Bank.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		352AB9442008F99A00A93C95 /* My Bank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Bank.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		352AB9472008F99A00A93C95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		352AB9492008F99A00A93C95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		352AB94C2008F99A00A93C95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		352AB94E2008F99A00A93C95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		352AB9512008F99A00A93C95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		352AB9532008F99A00A93C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		352AB95E2009184D00A93C95 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		352AFF28200937EB00062709 /* Product.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Product.storyboard; sourceTree = "<group>"; };
+		352AFF2B200944F400062709 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		352AFF2D2009452D00062709 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		352AFF2F200945E400062709 /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		352AFF312009472700062709 /* Transaction.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Transaction.storyboard; sourceTree = "<group>"; };
+		352AFF342009475900062709 /* PersonalInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoViewController.swift; sourceTree = "<group>"; };
+		352AFF362009476B00062709 /* ContactInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoViewController.swift; sourceTree = "<group>"; };
+		352AFF382009477C00062709 /* CredentialsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsViewController.swift; sourceTree = "<group>"; };
+		352AFF3B2009732000062709 /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		352AFF3D20097F1E00062709 /* SignupNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupNavigationController.swift; sourceTree = "<group>"; };
+		352AFF3F20099A0300062709 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		352AFF422009A2D000062709 /* DateTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTransformer.swift; sourceTree = "<group>"; };
+		352AFF452009AA3300062709 /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
+		352AFF472009AAE700062709 /* TransactionListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewController.swift; sourceTree = "<group>"; };
+		352AFF4C200A7C2200062709 /* AFManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFManager.swift; sourceTree = "<group>"; };
+		352AFF4E200A81AD00062709 /* mybank-client.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mybank-client.der"; sourceTree = "<group>"; };
+		352AFF51200A9D1C00062709 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		356E8C74200929F900EE678A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7B9A4008049E32AAFE22819F /* Pods-My Bank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Bank.release.xcconfig"; path = "Pods/Target Support Files/Pods-My Bank/Pods-My Bank.release.xcconfig"; sourceTree = "<group>"; };
+		C9F94DC6BE06123113C711B0 /* Pods-My Bank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Bank.debug.xcconfig"; path = "Pods/Target Support Files/Pods-My Bank/Pods-My Bank.debug.xcconfig"; sourceTree = "<group>"; };
+		E38CE47CC41E8D58C680A966 /* Pods_My_Bank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_Bank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +69,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6E283E7741F6EA425353BE6 /* Pods_My_Bank.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26D6D8640857D5032FDF4A58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9F94DC6BE06123113C711B0 /* Pods-My Bank.debug.xcconfig */,
+				7B9A4008049E32AAFE22819F /* Pods-My Bank.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		352AB93B2008F99A00A93C95 = {
 			isa = PBXGroup;
 			children = (
+				352AFF4B200A785400062709 /* Resources */,
 				352AB9462008F99A00A93C95 /* My Bank */,
 				352AB9452008F99A00A93C95 /* Products */,
+				26D6D8640857D5032FDF4A58 /* Pods */,
+				EC12B0DA9C2B6FDECBC561C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +107,111 @@
 		352AB9462008F99A00A93C95 /* My Bank */ = {
 			isa = PBXGroup;
 			children = (
+				352AFF412009A2B200062709 /* Utils */,
+				352AFF2A200944DA00062709 /* Cells */,
+				352AB95B2008FA0E00A93C95 /* Controllers */,
+				352AB95A2008FA0600A93C95 /* Views */,
+				352AB9592008F9ED00A93C95 /* Models */,
 				352AB9472008F99A00A93C95 /* AppDelegate.swift */,
-				352AB9492008F99A00A93C95 /* ViewController.swift */,
-				352AB94B2008F99A00A93C95 /* Main.storyboard */,
 				352AB94E2008F99A00A93C95 /* Assets.xcassets */,
-				352AB9502008F99A00A93C95 /* LaunchScreen.storyboard */,
 				352AB9532008F99A00A93C95 /* Info.plist */,
 			);
 			path = "My Bank";
+			sourceTree = "<group>";
+		};
+		352AB9592008F9ED00A93C95 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				352AB95E2009184D00A93C95 /* User.swift */,
+				352AFF2D2009452D00062709 /* Product.swift */,
+				352AFF3B2009732000062709 /* ApiError.swift */,
+				352AFF3F20099A0300062709 /* Transaction.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		352AB95A2008FA0600A93C95 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				352AB9502008F99A00A93C95 /* LaunchScreen.storyboard */,
+				352AB94B2008F99A00A93C95 /* Main.storyboard */,
+				352AFF28200937EB00062709 /* Product.storyboard */,
+				352AFF312009472700062709 /* Transaction.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		352AB95B2008FA0E00A93C95 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				352AFF442009AA0400062709 /* Transaction */,
+				352AFF3A2009478900062709 /* Product */,
+				352AFF332009473C00062709 /* SignUp */,
+				356E8C74200929F900EE678A /* LoginViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		352AFF2A200944DA00062709 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				352AFF2B200944F400062709 /* ProductTableViewCell.swift */,
+				352AFF452009AA3300062709 /* TransactionTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		352AFF332009473C00062709 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				352AFF342009475900062709 /* PersonalInfoViewController.swift */,
+				352AFF362009476B00062709 /* ContactInfoViewController.swift */,
+				352AFF382009477C00062709 /* CredentialsViewController.swift */,
+				352AFF3D20097F1E00062709 /* SignupNavigationController.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		352AFF3A2009478900062709 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				352AFF2F200945E400062709 /* ProductListViewController.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		352AFF412009A2B200062709 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				352AFF422009A2D000062709 /* DateTransformer.swift */,
+				352AFF4C200A7C2200062709 /* AFManager.swift */,
+				352AFF51200A9D1C00062709 /* UIViewControllerExtension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		352AFF442009AA0400062709 /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				352AFF472009AAE700062709 /* TransactionListViewController.swift */,
+			);
+			path = Transaction;
+			sourceTree = "<group>";
+		};
+		352AFF4B200A785400062709 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				352AFF4E200A81AD00062709 /* mybank-client.der */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EC12B0DA9C2B6FDECBC561C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E38CE47CC41E8D58C680A966 /* Pods_My_Bank.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 352AB9562008F99A00A93C95 /* Build configuration list for PBXNativeTarget "My Bank" */;
 			buildPhases = (
+				AB36449959D0AE5B89F5601C /* [CP] Check Pods Manifest.lock */,
 				352AB9402008F99A00A93C95 /* Sources */,
 				352AB9412008F99A00A93C95 /* Frameworks */,
 				352AB9422008F99A00A93C95 /* Resources */,
+				05C72740913B05FD9BE70EC4 /* [CP] Embed Pods Frameworks */,
+				894FFDE9CB5D3BFDEE22ED93 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,21 +276,101 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				352AFF4F200A831400062709 /* mybank-client.der in Resources */,
+				352AFF322009472700062709 /* Transaction.storyboard in Resources */,
 				352AB9522008F99A00A93C95 /* LaunchScreen.storyboard in Resources */,
 				352AB94F2008F99A00A93C95 /* Assets.xcassets in Resources */,
+				352AFF29200937EB00062709 /* Product.storyboard in Resources */,
 				352AB94D2008F99A00A93C95 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05C72740913B05FD9BE70EC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-My Bank/Pods-My Bank-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftValidator/SwiftValidator.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftValidator.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My Bank/Pods-My Bank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		894FFDE9CB5D3BFDEE22ED93 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My Bank/Pods-My Bank-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB36449959D0AE5B89F5601C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-My Bank-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		352AB9402008F99A00A93C95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				352AB94A2008F99A00A93C95 /* ViewController.swift in Sources */,
+				356E8C75200929F900EE678A /* LoginViewController.swift in Sources */,
+				352AFF482009AAE700062709 /* TransactionListViewController.swift in Sources */,
+				352AB95F2009184D00A93C95 /* User.swift in Sources */,
+				352AFF4020099A0300062709 /* Transaction.swift in Sources */,
+				352AFF52200A9D1C00062709 /* UIViewControllerExtension.swift in Sources */,
+				352AFF30200945E400062709 /* ProductListViewController.swift in Sources */,
+				352AFF3C2009732000062709 /* ApiError.swift in Sources */,
+				352AFF2C200944F400062709 /* ProductTableViewCell.swift in Sources */,
+				352AFF352009475900062709 /* PersonalInfoViewController.swift in Sources */,
+				352AFF3E20097F1E00062709 /* SignupNavigationController.swift in Sources */,
+				352AFF462009AA3300062709 /* TransactionTableViewCell.swift in Sources */,
+				352AFF392009477C00062709 /* CredentialsViewController.swift in Sources */,
+				352AFF432009A2D000062709 /* DateTransformer.swift in Sources */,
+				352AFF4D200A7C2200062709 /* AFManager.swift in Sources */,
 				352AB9482008F99A00A93C95 /* AppDelegate.swift in Sources */,
+				352AFF2E2009452D00062709 /* Product.swift in Sources */,
+				352AFF372009476B00062709 /* ContactInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,10 +505,13 @@
 		};
 		352AB9572008F99A00A93C95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9F94DC6BE06123113C711B0 /* Pods-My Bank.debug.xcconfig */;
 			buildSettings = {
+				API_DOMAIN = "https://localhost:4443";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "My Bank/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.antonio-saad.My-Bank";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,10 +522,13 @@
 		};
 		352AB9582008F99A00A93C95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B9A4008049E32AAFE22819F /* Pods-My Bank.release.xcconfig */;
 			buildSettings = {
+				API_DOMAIN = "https://localhost:4443";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "My Bank/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.antonio-saad.My-Bank";
 				PRODUCT_NAME = "$(TARGET_NAME)";
